@@ -1,0 +1,125 @@
+
+
+body{
+    background-color: rgb(71, 37, 31);
+}
+.caja img{
+    width: 30%;
+    border: 5px dotted black;
+    border-radius: 50%;
+    margin: 15px;
+}
+
+::selection{
+    color: rgb(234, 218, 218)
+}
+
+header nav ul li a{
+    cursor: crosshair;
+}
+
+header{
+    background-color: rgb(232, 139, 139);
+    display: flex;
+    justify-content: space-around;
+}
+
+.caja{
+    border: 7px solid red;
+    display: flex;
+    gap: 15px;
+}
+
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    width: 800px;
+    margin: 0 auto;
+    flex: 60%;
+
+}
+
+header{
+    background-color: rgb(232, 139, 139);
+}
+
+main{
+    background-color: bisque;
+    display: flex;
+}
+
+footer{
+    background-color: rgb(232, 139, 139);
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu{
+    background-color: khaki;
+    flex: 20%;
+    padding: 20px;
+}
+
+.contenido{
+    background-color: khaki;
+    flex: 20%;
+    padding: 20px;
+}
+
+aside nav ul li{
+    list-style: none;
+    background-color: bisque;
+    margin-bottom: 5px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    border-bottom: 5px solid black ;
+}
+
+aside nav ul li a{
+    text-decoration: none;
+}
+
+.social ul li{
+    list-style: none;
+    margin: 20px;
+}
+
+.social ul li a{
+    text-decoration: none;
+}
+
+.social{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.social ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.formulario{
+    border: 2px solid black;
+    padding: 15px;
+    margin-bottom: 50px;
+}
+
+.formulario label{
+    display: block;
+    font-weight: bold;
+    padding: 5px;
+
+}
+
+.formulario input{
+    display: block;
+    height: 30px;
+    border: 1px
+    solid #ddd;
+    margin-bottom: 5px;
+}

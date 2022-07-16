@@ -1,0 +1,23 @@
+@media screen and (max-width: 840px) {
+    nav ul li a:hover{
+        background-color: rgb(250, 238, 126);
+        color: coral;
+        border-radius: 100px;
+    }
+}
+
+@media screen and (max-width: 750px){
+    nav{
+        height: auto;
+    }
+    nav ul{
+        display: inline;
+    }
+
+    nav ul li a:hover{
+        background-color: rgba(0, 0, 0, 0);
+        color: coral;
+        border-radius: 0;
+    }
+    
+}
